@@ -1,0 +1,39 @@
+Question:
+What is the difference between shell and bash?
+“shell” is a broad term that refers to any program that provides a command-line interface, “Bash” is a specific type of shell that is widely used in Unix/Linux systems.
+
+Exercise 1:
+What is your home directory? What files/folders exist in your home directory? Navigate to it and then navigate back to your notes.
+
+My home directory is the place where my files are automatically stored, like if I am creating one in the terminal it will go there by default. I can see my home directory by doing ~ in my terminal, and see that my home directory is /Users/calissapage. Here, the files inside it can see by doing ls ~: Applications, Music, Users, DATA413, Page, cd Desktop, Page.pub, iCloud Drive (Archive), Documents, Pictures, statData, Downloads, Public, test Library, STAT427 Movies, Sites
+
+Exercise 2:
+Where does the following command take you? How does it work?
+   cd ~/../../..
+
+Although when you enter cd ~/../../.. it doesn’t actually show anything, unless you get some kind of error message, it still carries out the command. The cd ~ means it’s starting at the home directory, and the ..s and /s takes it to the next level up folder, since there are three of them, it goes up three levels.
+
+Exercise 3:
+Read the manual page of ls. What does the a flag do? What does the l flag do?
+
+According to the manual, using the a flag will show all files, including those that begin with a . that you wouldn’t otherwise see normally. The l flag (l stands for long) is the long format output, it still gives you all the main files, however it includes more information such as the date and time it was made.
+
+Exercise 4:
+Create a new file with touch command. for instance touch myfile.txt. Run stat myfile.txt what information do you get?
+
+By running that, it gives some basic information about the file, such as the owner of the file (me), the times it was created and modified, the name of it, the size of it, etc.
+
+Exercise 5:
+Run ls and from there list select a file. Now run ‘ls -l’ to display the details of the files, showing that it has been created or updated. what information does it give you regarding the myfile.txt and your selected file.
+
+If I look for myfile.txt in the large list, I can see that it gives the same information it gives for all the other files. For example its name, the last time it was modified, the size of the file, the owner. To be specific, also the permissions, link count (hand links to access the file I believe), and group (an ownership/access thing, mine is staff which I think is standard).
+
+Exercise 6:
+Add the following line This line is my first line to myfile.txt. Then run cat myfile.txt to show the line is added.
+
+(see qmd file for picture)
+
+Exercise 7:
+Run touch myfile.txt then run ls -l myfile.txt does the “timestep” for the file myfile.txt is updated? Show the output. Note: Another common use of the touch command is to update the timestamps of an existing file.
+
+(see qmd file for picture)
